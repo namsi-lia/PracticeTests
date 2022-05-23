@@ -7,12 +7,14 @@ import java.util.Scanner;
 
 public class Palindrome {
 
-    public static void main(String[] args) {
+    public static void main(String args[]) {
         //declare variables
         String baseWord, reverse = "";
 
         //initialize scanner class for user input
         Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter a String/Number to check whether its a palindrome");
 
         //this is used to the next string in line
         baseWord = scanner.nextLine();
